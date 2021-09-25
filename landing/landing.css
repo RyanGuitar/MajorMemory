@@ -1,0 +1,48 @@
+#AppContainer {
+  background-color: #874C62;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+}
+
+#AppContent {
+  text-align: center;
+}
+#heading {
+  color:white;
+  font-size: 2rem;
+  font-weight:bold;
+  padding-bottom:1rem;
+}
+#start {
+  color:#F2D38B;
+  padding-top:1rem;
+  font-size: 1.5rem;
+}
+
+.clean {
+  color:#47D2C8;
+}
+.cleanBg {
+  background-color:#47D2C8;
+}
+.butter {
+  color:#F2D38B;
+}
+.butterBg {
+  background-color:#F2D38B;
+}
+.salmon {
+  color:#C98474;
+}
+.salmonBg {
+  background-color: #C98474;
+}
+.eggplant {
+  color:#874C62;
+}
+.eggplantBg {
+  background-color: #874C62;
+}

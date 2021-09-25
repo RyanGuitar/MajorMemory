@@ -1,0 +1,85 @@
+#AppContainer {
+  background-color: #C98474;
+  overflow:scroll;
+  width:100vw;
+  height:100vh;
+}
+h1 {
+  text-align: center;
+}
+#list {
+  display: flex;
+  margin-top:13%;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  align-items: center;
+}
+#card {
+  font-size: 1rem;
+  margin:1rem 0;
+  padding:1rem 0;
+  width:90vw;
+  max-width:1020px;
+  height:auto;
+}
+#callSign, #imageContainer {
+  overflow:hidden;
+  padding:0;
+  margin:0;
+  display:inline-block;
+  width:49.6%;
+  height:auto;
+}
+#callSign {
+  color:white;
+  padding:1rem 0;
+  background-color: #874C62;
+  text-align: center;
+  font-size: 2rem;
+}
+#imageContainer {
+  float:left;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#imageContainer img {
+  aspect-ratio:1/1;
+  width:50%;
+  height:auto;
+}
+#description {
+    text-align:left;
+    height: auto;
+    color: white;
+    background-color: #F2D38B;
+    padding: 1rem 10px;
+}
+#searchBar {
+  position:fixed;
+  left:50%;
+  top:0%;
+  transform:translate(-50%, 0);
+  box-shadow: 5px 7px 14px gray;
+  display:block;
+  margin:1rem auto;
+  width:90vw;
+  max-width:1020px;
+  padding:1rem 10px;
+}
+#back {
+  position:fixed;
+  left:5%;
+  bottom:5%;
+  padding:1rem;
+  box-shadow: 5px 5px 7px gray;
+  background-color: #F2D38B;
+  color:white;
+}
+@media only screen and (orientation: landscape){
+  #imageContainer img {
+    width:30%;
+  }
+}

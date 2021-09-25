@@ -1,0 +1,25 @@
+* {
+  user-select: none;
+  margin:0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+body {
+  width:100vw;
+  height:100vh;
+}
+.clean {
+  color:#47D2C8;
+}
+.butter {
+  color:#F2D38B;
+}
+.salmon {
+  color:#C98474;
+}
+.eggplant {
+  color:#874C62;
+}

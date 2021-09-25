@@ -1,0 +1,90 @@
+#AppContent {
+  width:100vw;
+  height:100vh;
+}
+#heading {
+  background-color: #874C62;
+  color:white;
+  font-size: 2rem;
+  text-align:center;
+}
+#desc {
+  background-color: #874C62;
+  color:#F2D38B;
+  font-size: 1rem;
+  padding:1rem;
+  text-align: center;
+}
+#headingBox {
+  position:fixed;
+  top:0;
+  left:0;
+  display: block;
+  width:100vw;
+  height:auto;
+  box-shadow: 1px 1px 7px black;
+}
+#buttonBox {
+  position:fixed;
+  width:100vw;
+  background-color: blue;
+  bottom:0;
+  left:0;
+}
+#buttonBox button {
+  background-color: #874C62;
+  color:white;
+  border:1px solid #F2D38B;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width:10vw;
+}
+#buttonBox button:hover {
+  background-color: #C98474;
+}
+#displayBox {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width:100vw;
+  height:100vh;
+  background-color:#47D2C8;
+}
+#numImages {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  align-items: center;
+  place-content: stretch center;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#numImages img {
+  aspect-ratio: 1/1;
+  width:15%;
+  height:auto;
+}
+#numbers {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width:40vw;
+  height:auto;
+  background-color:#F2D38B;
+  color:#874C62;
+  margin-top:1rem;
+  font-size: 2rem;
+}
+#numCheck {
+  padding-top:1rem;
+  font-size: 1.5rem;
+}
+#x {
+  position:fixed;
+  padding-right:1rem;
+  right:0;
+}

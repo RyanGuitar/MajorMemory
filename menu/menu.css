@@ -1,0 +1,25 @@
+#AppContainer {
+  background-color: #874C62;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+}
+
+
+#heading {
+  color:white;
+  font-size:2rem;
+}
+
+#menu {
+  padding-top:1rem;
+}
+
+#menu div {
+  text-align: center;
+  color:#F2D38B;
+  font-size: 1.2rem;
+  padding:0.5rem 0;
+}
